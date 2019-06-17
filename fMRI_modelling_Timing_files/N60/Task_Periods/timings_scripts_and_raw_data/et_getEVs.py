@@ -9,7 +9,7 @@ Created on Thu May 23 11:04:59 2019
 import pandas as pd
 import numpy as np
 
-task = 'WM' # CRT or WM
+task = 'CRT' # CRT or WM
 path = '/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/fMRI_modelling_Timing_files/N60/Task_Periods/timings_scripts_and_raw_data/MW_ratings_N61_1_session_%s_trials.csv' % task
 
 df = pd.read_csv(path)

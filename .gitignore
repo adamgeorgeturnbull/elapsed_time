@@ -1,0 +1,6 @@
+#ignore all output directories
+**/output
+
+#ignore all niftis
+*.nii.gz
+
