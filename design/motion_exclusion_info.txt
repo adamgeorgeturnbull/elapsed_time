@@ -1,0 +1,13 @@
+Run exclusion criteria: >0.2mm relative or >1mm absolute motion.
+Participant exclusion criteria: more than 2 runs excluded.
+
+Participants affected:
+10 excluded.
+15 excluded. 
+
+14 run 4 omitted. 
+35 run 4 omitted. 
+39 runs 1 and 3 omitted.  
+59 runs 3 and 4 omitted.
+62 runs 3 and 4 omitted.
+64 run 3 omitted. 

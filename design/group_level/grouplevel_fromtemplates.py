@@ -21,11 +21,11 @@ copes = range(1, 22)
 thresh = 3.1
 
 # give design
-designname = 'N59_elapsed_time'
+designname = 'N60_elapsed_time'
 
 for cope in copes:
     outputdir = '/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/group_level/%s/cope%s_%s' % (designname, cope, (int(thresh*10)))
-    filename = template.replace('template','%s_%s_%s' % (designname, cope, (int(thresh*10))))
+    filename = template.replace('template','fsf_files/%s_%s_%s' % (designname, cope, (int(thresh*10))))
     with open(template, 'r') as file:
         filedata = file.read()
         output = 'fmri(outputdir) "%s"' % outputdir

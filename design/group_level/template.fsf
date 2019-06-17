@@ -30,13 +30,13 @@ set fmri(featwatcher_yn) 1
 set fmri(sscleanup_yn) 0
 
 # Output directory
-set fmri(outputdir) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/group_level/N58_elapsed_time_31_fd"
+set fmri(outputdir) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/group_level/N60_elapsed_time_31_fd"
 
 # TR(s)
 set fmri(tr) 3
 
 # Total volumes
-set fmri(npts) 58
+set fmri(npts) 60
 
 # Delete volumes
 set fmri(ndelete) 0
@@ -45,7 +45,7 @@ set fmri(ndelete) 0
 set fmri(tagfirst) 1
 
 # Number of first-level analyses
-set fmri(multiple) 58
+set fmri(multiple) 60
 
 # Higher-level input type
 # 1 : Inputs are lower-level FEAT directories
@@ -390,61 +390,67 @@ set feat_files(38) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output
 set feat_files(39) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/43_R4119/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (40)
-set feat_files(40) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/45_R4662/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(40) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/44_R4222/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (41)
-set feat_files(41) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/47_R4487/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(41) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/45_R4662/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (42)
-set feat_files(42) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/48_R4509/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(42) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/47_R4487/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (43)
-set feat_files(43) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/49_R4169/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(43) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/48_R4509/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (44)
-set feat_files(44) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/50_R4659/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(44) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/49_R4169/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (45)
-set feat_files(45) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/51_R4500/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(45) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/50_R4659/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (46)
-set feat_files(46) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/52_R4235/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(46) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/51_R4500/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (47)
-set feat_files(47) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/53_R4678/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(47) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/52_R4235/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (48)
-set feat_files(48) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/54_R4610/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(48) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/53_R4678/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (49)
-set feat_files(49) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/55_R4538/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(49) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/54_R4610/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (50)
-set feat_files(50) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/56_R4519/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(50) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/55_R4538/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (51)
-set feat_files(51) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/57_R4661/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(51) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/56_R4519/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (52)
-set feat_files(52) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/58_R4544/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(52) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/57_R4661/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (53)
-set feat_files(53) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/59_R4524/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(53) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/58_R4544/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (54)
-set feat_files(54) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/60_R4132/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(54) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/59_R4524/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (55)
-set feat_files(55) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/61_R4447/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(55) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/60_R4132/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (56)
-set feat_files(56) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/63_R4255/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(56) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/61_R4447/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (57)
-set feat_files(57) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/64_R4258/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(57) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/62_R4268/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (58)
-set feat_files(58) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/65_R4497/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+set feat_files(58) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/63_R4255/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+
+# 4D AVW data or FEAT directory (59)
+set feat_files(59) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/64_R4258/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
+
+# 4D AVW data or FEAT directory (60)
+set feat_files(60) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/65_R4497/N60_elapsed_time.gfeat/cope8.feat/stats/cope1.nii.gz"
 
 # Add confound EVs text file
 set fmri(confoundevs) 0
@@ -666,6 +672,12 @@ set fmri(evg57.1) 1
 # Higher-level EV value for EV 1 and input 58
 set fmri(evg58.1) 1
 
+# Higher-level EV value for EV 1 and input 59
+set fmri(evg59.1) 1
+
+# Higher-level EV value for EV 1 and input 60
+set fmri(evg60.1) 1
+
 # EV 2 title
 set fmri(evtitle2) "fd"
 
@@ -710,178 +722,184 @@ set fmri(ortho2.1) 0
 set fmri(ortho2.2) 0
 
 # Higher-level EV value for EV 2 and input 1
-set fmri(evg1.2) 0.07708959
+set fmri(evg1.2) -0.041060731185289
 
 # Higher-level EV value for EV 2 and input 2
-set fmri(evg2.2) 0.0574089
+set fmri(evg2.2) -0.060741421185289
 
 # Higher-level EV value for EV 2 and input 3
-set fmri(evg3.2) 0.16568842
+set fmri(evg3.2) 0.047538098814711
 
 # Higher-level EV value for EV 2 and input 4
-set fmri(evg4.2) 0.07890136
+set fmri(evg4.2) -0.039248961185289
 
 # Higher-level EV value for EV 2 and input 5
-set fmri(evg5.2) 0.19678803
+set fmri(evg5.2) 0.078637708814711
 
 # Higher-level EV value for EV 2 and input 6
-set fmri(evg6.2) 0.09266146
+set fmri(evg6.2) -0.025488861185289
 
 # Higher-level EV value for EV 2 and input 7
-set fmri(evg7.2) 0.1422306
+set fmri(evg7.2) 0.024080278814711
 
 # Higher-level EV value for EV 2 and input 8
-set fmri(evg8.2) 0.07545433
+set fmri(evg8.2) -0.042695991185289
 
 # Higher-level EV value for EV 2 and input 9
-set fmri(evg9.2) 0.07487092
+set fmri(evg9.2) -0.043279401185289
 
 # Higher-level EV value for EV 2 and input 10
-set fmri(evg10.2) 0.26522329
+set fmri(evg10.2) -0.064412661185289
 
 # Higher-level EV value for EV 2 and input 11
-set fmri(evg11.2) 0.05373766
+set fmri(evg11.2) -0.054035791185289
 
 # Higher-level EV value for EV 2 and input 12
-set fmri(evg12.2) 0.06411453
+set fmri(evg12.2) 0.116747898814711
 
 # Higher-level EV value for EV 2 and input 13
-set fmri(evg13.2) 0.23489822
+set fmri(evg13.2) -0.044227081185289
 
 # Higher-level EV value for EV 2 and input 14
-set fmri(evg14.2) 0.07392324
+set fmri(evg14.2) -0.013842231185289
 
 # Higher-level EV value for EV 2 and input 15
-set fmri(evg15.2) 0.10430809
+set fmri(evg15.2) -0.075162051185289
 
 # Higher-level EV value for EV 2 and input 16
-set fmri(evg16.2) 0.04298827
+set fmri(evg16.2) -0.063239641185289
 
 # Higher-level EV value for EV 2 and input 17
-set fmri(evg17.2) 0.05491068
+set fmri(evg17.2) -0.070164311185289
 
 # Higher-level EV value for EV 2 and input 18
-set fmri(evg18.2) 0.04798601
+set fmri(evg18.2) -0.065580721185289
 
 # Higher-level EV value for EV 2 and input 19
-set fmri(evg19.2) 0.0525696
+set fmri(evg19.2) -0.031962301185289
 
 # Higher-level EV value for EV 2 and input 20
-set fmri(evg20.2) 0.08618802
+set fmri(evg20.2) -0.022799611185289
 
 # Higher-level EV value for EV 2 and input 21
-set fmri(evg21.2) 0.09535071
+set fmri(evg21.2) -0.036241441185289
 
 # Higher-level EV value for EV 2 and input 22
-set fmri(evg22.2) 0.08190888
+set fmri(evg22.2) 0.064477918814711
 
 # Higher-level EV value for EV 2 and input 23
-set fmri(evg23.2) 0.18262824
+set fmri(evg23.2) -0.039967821185289
 
 # Higher-level EV value for EV 2 and input 24
-set fmri(evg24.2) 0.0781825
+set fmri(evg24.2) 0.008579708814711
 
 # Higher-level EV value for EV 2 and input 25
-set fmri(evg25.2) 0.12673003
+set fmri(evg25.2) -0.050351011185289
 
 # Higher-level EV value for EV 2 and input 26
-set fmri(evg26.2) 0.06779931
+set fmri(evg26.2) 0.026308628814711
 
 # Higher-level EV value for EV 2 and input 27
-set fmri(evg27.2) 0.14445895
+set fmri(evg27.2) 0.016995128814711
 
 # Higher-level EV value for EV 2 and input 28
-set fmri(evg28.2) 0.13514545
+set fmri(evg28.2) -0.079545431185289
 
 # Higher-level EV value for EV 2 and input 29
-set fmri(evg29.2) 0.03860489
+set fmri(evg29.2) -0.061640251185289
 
 # Higher-level EV value for EV 2 and input 30
-set fmri(evg30.2) 0.05651007
+set fmri(evg30.2) 0.278596658814711
 
 # Higher-level EV value for EV 2 and input 31
-set fmri(evg31.2) 0.39674698
+set fmri(evg31.2) 0.001070878814711
 
 # Higher-level EV value for EV 2 and input 32
-set fmri(evg32.2) 0.1192212
+set fmri(evg32.2) -0.063187461185289
 
 # Higher-level EV value for EV 2 and input 33
-set fmri(evg33.2) 0.05496286
+set fmri(evg33.2) -0.008077261185289
 
 # Higher-level EV value for EV 2 and input 34
-set fmri(evg34.2) 0.11007306
+set fmri(evg34.2) 0.103584298814711
 
 # Higher-level EV value for EV 2 and input 35
-set fmri(evg35.2) 0.22173462
+set fmri(evg35.2) 0.005258828814711
 
 # Higher-level EV value for EV 2 and input 36
-set fmri(evg36.2) 0.12340915
+set fmri(evg36.2) -0.030956271185289
 
 # Higher-level EV value for EV 2 and input 37
-set fmri(evg37.2) 0.08719405
+set fmri(evg37.2) -0.035777941185289
 
 # Higher-level EV value for EV 2 and input 38
-set fmri(evg38.2) 0.08237238
+set fmri(evg38.2) -0.032441231185289
 
 # Higher-level EV value for EV 2 and input 39
-set fmri(evg39.2) 0.08570909
+set fmri(evg39.2) -0.04997224006797
 
 # Higher-level EV value for EV 2 and input 40
-set fmri(evg40.2) 0.0966061
+set fmri(evg40.2) -0.021544221185289
 
 # Higher-level EV value for EV 2 and input 41
-set fmri(evg41.2) 0.07525673
+set fmri(evg41.2) 0.006385848814711
 
 # Higher-level EV value for EV 2 and input 42
-set fmri(evg42.2) 0.0775725
+set fmri(evg42.2) -0.042893591185289
 
 # Higher-level EV value for EV 2 and input 43
-set fmri(evg43.2) 0.0693992
+set fmri(evg43.2) -0.040577821185289
 
 # Higher-level EV value for EV 2 and input 44
-set fmri(evg44.2) 0.0777138
+set fmri(evg44.2) -0.048751121185289
 
 # Higher-level EV value for EV 2 and input 45
-set fmri(evg45.2) 0.08986151
+set fmri(evg45.2) -0.040436521185289
 
 # Higher-level EV value for EV 2 and input 46
-set fmri(evg46.2) 0.10381352
+set fmri(evg46.2) -0.028288811185289
 
 # Higher-level EV value for EV 2 and input 47
-set fmri(evg47.2) 0.07978799
+set fmri(evg47.2) -0.014336801185289
 
 # Higher-level EV value for EV 2 and input 48
-set fmri(evg48.2) 0.13666256
+set fmri(evg48.2) -0.038362331185289
 
 # Higher-level EV value for EV 2 and input 49
-set fmri(evg49.2) 0.15088212
+set fmri(evg49.2) 0.018512238814711
 
 # Higher-level EV value for EV 2 and input 50
-set fmri(evg50.2) 0.14878516
+set fmri(evg50.2) 0.032731798814711
 
 # Higher-level EV value for EV 2 and input 51
-set fmri(evg51.2) 0.19844847
+set fmri(evg51.2) 0.030634838814711
 
 # Higher-level EV value for EV 2 and input 52
-set fmri(evg52.2) 0.18162099
+set fmri(evg52.2) 0.080298148814711
 
 # Higher-level EV value for EV 2 and input 53
-set fmri(evg53.2) 0.2320808
+set fmri(evg53.2) 0.063470668814711
 
 # Higher-level EV value for EV 2 and input 54
-set fmri(evg54.2) 0.05221481
+set fmri(evg54.2) 0.113930478814711
 
 # Higher-level EV value for EV 2 and input 55
-set fmri(evg55.2) 0.05748083
+set fmri(evg55.2) -0.065935511185289
 
 # Higher-level EV value for EV 2 and input 56
-set fmri(evg56.2) 0.06211242
+set fmri(evg56.2) -0.060669491185289
 
 # Higher-level EV value for EV 2 and input 57
-set fmri(evg57.2) 0.25736624
+set fmri(evg57.2) 0.522906678814711
 
 # Higher-level EV value for EV 2 and input 58
-set fmri(evg58.2) 0.04212192
+set fmri(evg58.2) -0.056037901185289
+
+# Higher-level EV value for EV 2 and input 59
+set fmri(evg59.2) 0.139215918814711
+
+# Higher-level EV value for EV 2 and input 60
+set fmri(evg60.2) -0.076028401185289
 
 # Setup Orthogonalisation at higher level? 
 set fmri(level2orth) 0
@@ -1059,6 +1077,12 @@ set fmri(groupmem.57) 1
 
 # Group membership for input 58
 set fmri(groupmem.58) 1
+
+# Group membership for input 59
+set fmri(groupmem.59) 1
+
+# Group membership for input 60
+set fmri(groupmem.60) 1
 
 # Contrast & F-tests mode
 # real : control real EVs
