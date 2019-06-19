@@ -267,7 +267,7 @@ set fmri(totalVoxels) 44236800
 
 
 # Number of lower-level copes feeding into higher-level analysis
-set fmri(ncopeinputs) 21
+set fmri(ncopeinputs) 28
 
 # Use lower-level cope 1 for higher-level analysis
 set fmri(copeinput.1) 1
@@ -331,6 +331,27 @@ set fmri(copeinput.20) 1
 
 # Use lower-level cope 21 for higher-level analysis
 set fmri(copeinput.21) 1
+
+# Use lower-level cope 22 for higher-level analysis
+set fmri(copeinput.22) 1
+
+# Use lower-level cope 23 for higher-level analysis
+set fmri(copeinput.23) 1
+
+# Use lower-level cope 24 for higher-level analysis
+set fmri(copeinput.24) 1
+
+# Use lower-level cope 25 for higher-level analysis
+set fmri(copeinput.25) 1
+
+# Use lower-level cope 26 for higher-level analysis
+set fmri(copeinput.26) 1
+
+# Use lower-level cope 27 for higher-level analysis
+set fmri(copeinput.27) 1
+
+# Use lower-level cope 28 for higher-level analysis
+set fmri(copeinput.28) 1
 
 # 4D AVW data or FEAT directory (1)
 set feat_files(1) "/scratch/sg0/P1300/fMRI_data/elapsed_time/output/first_level/01_R3262/S1_Run_1_N60_elapsed_time.feat"

@@ -15,7 +15,7 @@ template = '/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/design/group_l
 savedir = '/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/design/group_level/fsf_files'
 
 # give list of copes
-copes = range(1, 22)
+copes = range(1, 29)
 
 # give thresh
 thresh = 3.1

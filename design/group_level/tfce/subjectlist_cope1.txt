@@ -37,7 +37,6 @@
 /scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/41_R4071/N60_elapsed_time.gfeat/cope1.feat/stats/cope1.nii.gz
 /scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/42_R4085/N60_elapsed_time.gfeat/cope1.feat/stats/cope1.nii.gz
 /scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/43_R4119/N60_elapsed_time.gfeat/cope1.feat/stats/cope1.nii.gz
-/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/44_R4222/N60_elapsed_time.gfeat/cope1.feat/stats/cope1.nii.gz
 /scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/45_R4662/N60_elapsed_time.gfeat/cope1.feat/stats/cope1.nii.gz
 /scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/47_R4487/N60_elapsed_time.gfeat/cope1.feat/stats/cope1.nii.gz
 /scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/fixed_level/48_R4509/N60_elapsed_time.gfeat/cope1.feat/stats/cope1.nii.gz

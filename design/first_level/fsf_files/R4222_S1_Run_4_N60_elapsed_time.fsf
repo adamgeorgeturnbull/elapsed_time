@@ -30,7 +30,7 @@ set fmri(featwatcher_yn) 1
 set fmri(sscleanup_yn) 0
 
 # Output directory
-set fmri(outputdir) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/first_level/44_R4222/S1_Run_4_N60_elapsed_time.feat"
+set fmri(outputdir) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/output/first_level/30_R4222/S1_Run_4_N60_elapsed_time.feat"
 
 # TR(s)
 set fmri(tr) 3.000000
@@ -270,16 +270,16 @@ set fmri(totalVoxels) 44236800
 set fmri(ncopeinputs) 0
 
 # 4D AVW data or FEAT directory (1)
-set feat_files(1) "/scratch/sg0/P1300/fMRI_data/44_R4222/S1/Run_4"
+set feat_files(1) "/scratch/sg0/P1300/fMRI_data/30_R4222/S1/Run_4"
 
 # Add confound EVs text file
 set fmri(confoundevs) 0
 
 # Session's structural image for analysis 1
-set initial_highres_files(1) "/scratch/sg0/P1300/fMRI_data/44_R4222/S1/T1_FLAIR_extracted"
+set initial_highres_files(1) "/scratch/sg0/P1300/fMRI_data/30_R4222/S1/T1_FLAIR_extracted"
 
 # Subject's structural image for analysis 1
-set highres_files(1) "/scratch/sg0/P1300/fMRI_data/44_R4222/T1A_extracted"
+set highres_files(1) "/scratch/sg0/P1300/fMRI_data/30_R4222/T1A_extracted"
 
 # EV 1 title
 set fmri(evtitle1) "CRT_NT"
