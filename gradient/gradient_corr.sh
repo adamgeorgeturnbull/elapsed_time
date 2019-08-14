@@ -8,7 +8,7 @@ set -e # stop if I error
 set -u # error if you call an unset (empty) variable
 
 # Alternatively, you can create a list of zstat maps in a text file and use cat to load it.
-subjdirs=`cat /scratch/groups/Projects/P1300/fMRI_data/elapsed_time/gradient/subjectlist_elapsed_time.txt`
+subjdirs=`cat /scratch/groups/Projects/P1300/fMRI_data/elapsed_time/gradient/subject_level/subjectlist_elapsed_time.txt`
 
 # mask to use for correlations
 Mask="/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/gradient/gradient_mask.nii.gz"
