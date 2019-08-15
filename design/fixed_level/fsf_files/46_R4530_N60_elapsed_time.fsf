@@ -36,7 +36,7 @@ set fmri(outputdir) "/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/outpu
 set fmri(tr) 3
 
 # Total volumes
-set fmri(npts) 4
+set fmri(npts) 2
 
 # Delete volumes
 set fmri(ndelete) 0
@@ -45,7 +45,7 @@ set fmri(ndelete) 0
 set fmri(tagfirst) 1
 
 # Number of first-level analyses
-set fmri(multiple) 4
+set fmri(multiple) 2
 
 # Higher-level input type
 # 1 : Inputs are lower-level FEAT directories
@@ -357,13 +357,7 @@ set fmri(copeinput.28) 1
 set feat_files(1) "/scratch/sg0/P1300/fMRI_data/elapsed_time/output/first_level/46_R4530/S1_Run_1_N60_elapsed_time.feat"
 
 # 4D AVW data or FEAT directory (2)
-set feat_files(2) "/scratch/sg0/P1300/fMRI_data/elapsed_time/output/first_level/46_R4530/S1_Run_2_N60_elapsed_time.feat"
-
-# 4D AVW data or FEAT directory (3)
-set feat_files(3) "/scratch/sg0/P1300/fMRI_data/elapsed_time/output/first_level/46_R4530/S1_Run_3_N60_elapsed_time.feat"
-
-# 4D AVW data or FEAT directory (4)
-set feat_files(4) "/scratch/sg0/P1300/fMRI_data/elapsed_time/output/first_level/46_R4530/S1_Run_4_N60_elapsed_time.feat"
+set feat_files(2) "/scratch/sg0/P1300/fMRI_data/elapsed_time/output/first_level/46_R4530/S1_Run_4_N60_elapsed_time.feat"
 
 # Add confound EVs text file
 set fmri(confoundevs) 0
@@ -414,12 +408,6 @@ set fmri(evg1.1) 1
 # Higher-level EV value for EV 1 and input 2
 set fmri(evg2.1) 1.0
 
-# Higher-level EV value for EV 1 and input 3
-set fmri(evg3.1) 1.0
-
-# Higher-level EV value for EV 1 and input 4
-set fmri(evg4.1) 1.0
-
 # Setup Orthogonalisation at higher level? 
 set fmri(level2orth) 0
 
@@ -428,12 +416,6 @@ set fmri(groupmem.1) 1
 
 # Group membership for input 2
 set fmri(groupmem.2) 1
-
-# Group membership for input 3
-set fmri(groupmem.3) 1
-
-# Group membership for input 4
-set fmri(groupmem.4) 1
 
 # Contrast & F-tests mode
 # real : control real EVs
