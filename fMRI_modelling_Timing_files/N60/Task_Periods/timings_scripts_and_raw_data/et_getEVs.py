@@ -9,8 +9,8 @@ Created on Thu May 23 11:04:59 2019
 import pandas as pd
 import numpy as np
 
-task = 'CRT' # CRT or WM
-path = '/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/fMRI_modelling_Timing_files/N60/Task_Periods/timings_scripts_and_raw_data/MW_ratings_N61_1_session_%s_trials.csv' % task
+task = 'WM' # CRT or WM
+path = '/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/fMRI_modelling_Timing_files/N60/Task_Periods/timings_scripts_and_raw_data/trials_with_correct_%s.csv' % task
 
 df = pd.read_csv(path)
 
@@ -57,7 +57,7 @@ base = '/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/fMRI_modelling_Tim
 for run in runs:
     for R in Rnum:
         filename = base + '/%s_%s.txt' % (R, run)
-        x = df[(df['RUN'] == run) & (df['RNUM'] == R) & (df['stimType'] == 'TT')]
+        x = df[(df['RUN'] == run) & (df['RNUM'] == R) & (df['stimType'] == 'TT') & (df['Correct'])]
         x = x[['stimStart_offset', 'stimT']]
         x['ones'] = int(1)
         np.savetxt(filename, x.values, fmt=['%.8f', '%.2f', '%d'])
@@ -76,7 +76,7 @@ base = '/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/fMRI_modelling_Tim
 for run in runs:
     for R in Rnum:
         filename = base + '/%s_%s.txt' % (R, run)
-        x = df[(df['RUN'] == run) & (df['RNUM'] == R) & (df['stimType'] == 'TT')]
+        x = df[(df['RUN'] == run) & (df['RNUM'] == R) & (df['stimType'] == 'TT') & (df['Correct'])]
         x = x[['stimStart_offset', 'stimT', 'counter']]
         mc = x['counter'] - np.mean(x['counter'])
         x['counter'] = mc
