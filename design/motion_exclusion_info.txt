@@ -11,3 +11,8 @@ Participants affected:
 59 runs 3 and 4 omitted.
 62 runs 3 and 4 omitted.
 64 run 3 omitted. 
+
+Also: 
+Participant 46 had no correct trials in CRT runs 2 and 3, and WM run 3. Suggests sleep or error. Excluding runs 2 and 3. 
+
+Participant 55 had no correct trials in CRT or WM run 1. Suggests sleep or error. Run 1 excluded. 
