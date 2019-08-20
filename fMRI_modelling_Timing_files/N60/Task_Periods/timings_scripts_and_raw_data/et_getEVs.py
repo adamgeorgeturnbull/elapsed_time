@@ -49,7 +49,8 @@ for run in runs:
     for R in Rnum:
         filename = base + '/%s_%s.txt' % (R, run)
         x = df[(df['RUN'] == run) & (df['RNUM'] == R) & (df['stimType'] == 'NT')]
-        x = x[['stimStart_offset', 'stimT']]
+        x['onset'] = x['stimStart_offset'] - x['stimT']
+        x = x[['onset', 'stimT']]
         x['ones'] = int(1)
         np.savetxt(filename, x.values, fmt=['%.8f', '%.2f', '%d'])
         
@@ -67,7 +68,8 @@ for run in runs:
     for R in Rnum:
         filename = base + '/%s_%s.txt' % (R, run)
         x = df[(df['RUN'] == run) & (df['RNUM'] == R) & (df['stimType'] == 'NT')]
-        x = x[['stimStart_offset', 'stimT', 'counter']]
+        x['onset'] = x['stimStart_offset'] - x['stimT']
+        x = x[['onset', 'stimT', 'counter']]
         mc = x['counter'] - np.mean(x['counter'])
         x['counter'] = mc
         np.savetxt(filename, x.values, fmt=['%.8f', '%.2f', '%.8f'])
