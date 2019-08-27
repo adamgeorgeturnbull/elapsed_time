@@ -1,0 +1,59 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red38\green38\blue38;
+}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;\csgenericrgb\c100000\c100000\c100000;\cssrgb\c20000\c20000\c20000;
+}
+\margl1440\margr1440\vieww28600\viewh15660\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \cb3 # Monica D. Rosenberg & Kevin M. Anderson 2019\
+\
+##### Set file path #####\
+base_dir=\CocoaLigature0 /Users/monica/Documents/Projects/ABCD/WM_paper/Analysis/fMRI_analyses\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 fwep=$\{base_dir\}/nBack_2_back_vs_0_back_nihtbx_list_dat_tstat_fwep_c4.dscalar.nii ### This is a whole-brain cifti of p values output by FSL\'92s PALM\
+fwep_out=$\{base_dir\}/nBack_2_back_vs_0_back_nihtbx_list_dat_tstat_fwep_c4_TRESH_1_310.dscalar.nii\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf2 \CocoaLigature1 #####\CocoaLigature0  Threshold p-values \CocoaLigature1 #####\CocoaLigature0 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 wb_command -cifti-math \'91x>=1.310\'92 $\{fwep_out\} -var x $\{fwep\}\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf2 \kerning1\expnd0\expndtw0 ##### Separate left and right hemispheres #####\expnd0\expndtw0\kerning0
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 fwep_L=$\{base_dir\}/LH.nBack_2_back_vs_0_back_nihtbx_list_dat_tstat_fwep_c4_TRESH_1_310.func.gii\
+fwep_R=$\{base_dir\}/RH.nBack_2_back_vs_0_back_nihtbx_list_dat_tstat_fwep_c4_TRESH_1_310.func.gii\
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+wb_command -cifti-separate $\{\kerning1\expnd0\expndtw0 \CocoaLigature0 fwep_out\} COLUMN \expnd0\expndtw0\kerning0
+\CocoaLigature1 -metric CORTEX_LEFT $\{fwep_L\} -metric CORTEX_RIGHT $\{fwep_R\}\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 surf_L=/Users/monica/Documents/Projects/ABCD/HCP_WB_Tutorial_1.0/Q1-Q6_R440.L.midthickness.32k_fs_LR.surf.gii\
+surf_R=/Users/monica/Documents/Projects/ABCD/HCP_WB_Tutorial_1.0/Q1-Q6_R440.R.midthickness.32k_fs_LR.surf.gii\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 fwep_L_border=$\{base_dir\}/LH.nBack_2_back_vs_0_back_nihtbx_list_dat_tstat_fwep_c4_TRESH_1_310.border\
+fwep_R_border=$\{base_dir\}/RH.nBack_2_back_vs_0_back_nihtbx_list_dat_tstat_fwep_c4_TRESH_1_310.border\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 wb_command -metric-rois-to-border $\{surf_L\} $\{fwep_L\} test $\{\kerning1\expnd0\expndtw0 \CocoaLigature0 fwep_L_border\}\
+\expnd0\expndtw0\kerning0
+\CocoaLigature1 wb_command -metric-rois-to-border $\{surf_R\} $\{fwep_R\} test $\{\kerning1\expnd0\expndtw0 \CocoaLigature0 fwep_R_border\}\expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\
+      <surface> - the surface to use for neighbor information\
+      <metric> - the input metric containing ROIs\
+      <class-name> - the name to use for the class of the output borders\
+      <border-out> - output - the output border file\
+\
+}
