@@ -1,0 +1,17 @@
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Aug 27 16:30:07 2019
+
+@author: agt520
+"""
+
+import pandas as pd
+
+grad = 1
+
+file = '/scratch/groups/Projects/P1300/fMRI_data/elapsed_time/gradient/figures/betas_grad%s.csv' % grad
+
+df = pd.read_csv(file, sep= ",")
+df.head()
+

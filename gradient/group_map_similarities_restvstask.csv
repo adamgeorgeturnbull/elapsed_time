@@ -1,0 +1,6 @@
+Map,Gradient1,Gradient2,Gradient3,Colors
+Off-task,-0.053,-0.078,-0.437,#440154FF
+Decreasing,0.084,0.379,0.231,#35B779FF
+RestingState,0.023,0.126,0.199,k
+On-task,0.053,0.078,0.437,#FDE725FF
+Increasing,-0.084,-0.379,-0.231,#31688EFF
