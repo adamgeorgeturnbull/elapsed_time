@@ -24,3 +24,6 @@ for visualisation purposes.
 
 nifti files are not included for space and privacy reasons. any nifti files are available on request. the unthresholded niftis for the 
 significant contrasts of interest are on NeuroVault. 
+
+note: raincloud script is approximately what was used to create the figure used in the paper, but only one script was used and was 
+altered as required to produce the figures in the paper.
